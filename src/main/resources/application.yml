@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    #1.JDBC
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://159.75.109.153:3306/share_center?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC&useSSL=false
+    username: root
+    password: 123456
+
+server:
+  port: 8082
